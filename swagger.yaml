@@ -3663,6 +3663,7 @@ definitions:
         type: string
         pattern: ^[0-9]{6}$
       account_type:
+        x-nullable: true
         type: integer
 
   BacsAssociationCreation:
